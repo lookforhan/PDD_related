@@ -22,7 +22,7 @@ if libisloaded(libName)
     unloadlibrary (libName)
 end
 errcode=loadlibrary(libName,hfileName);%加载EPANET文件
-output_net_file='EPANETpddnet02S02.inp';
+output_net_file='EPANETpddnet02S02_wenxian.inp';
 output_net_filename=['C:\Users\hc042\Desktop\计算结果','\555',];
 if isdir(output_net_filename)
     rmdir(output_net_filename,'s')

@@ -1,4 +1,5 @@
-%EPANETpdd那天
+%EPANETpdd
+% 选择的案例管网为net02.inp
 clear;clc;close all;tic
 funcName = 'epanet2';
 hfileName = 'epanet2.h';
@@ -72,7 +73,7 @@ for i = 1:numel(R_head)
         error=abs(bdemand1-bdemand2)./bdemand1;
         b=max(error);
         if b<0.01
-%             disp(['PDD满足收敛条件,迭代',num2str(n),'次'])
+            disp(['PDD满足收敛条件,迭代',num2str(n),'次'])
             break
         end
         for j=1:junction_num
