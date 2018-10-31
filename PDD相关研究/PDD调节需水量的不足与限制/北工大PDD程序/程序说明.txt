@@ -1,0 +1,6 @@
+1. 请在64位windows操作系统中运行matlab；为了使matlab 成功调用epanet2.dll，需要在计算机上安装visual c++或 visual studio后，设置matlab编译器；
+   设置方法,在matlab命令行输入“mex -setup”回车，根据提示选择；
+2. WDN_PDD_HBW.m文件为计算主程序，计算输入文件和输出结果文件全部存储在EPA_case文件中；
+3. Get_hydraulic_results.m文件为主程序调用的函数，主要用来读取EPA计算结果中的节点信息。
+4. 程序计算过程中，若出现“PDD模型迭代不收敛，PDD模型参数需要调整！”的提示信息，请先尝试将WDN_PDD_HBW.m文件中第20行Hdes值提高。
+5. 如有问题，请联系：侯本伟，北京工业大学建筑工程学院,benweihou@bjut.edu.cn；

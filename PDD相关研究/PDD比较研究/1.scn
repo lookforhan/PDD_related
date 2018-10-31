@@ -1,0 +1,36 @@
+[DEMANDS]
+;Junction        	Demand      	Pattern         	Category
+ 1               	33.33       	                
+ 2               	33.33       	                
+ 3               	50          	                
+ 4               	16.67       	                
+
+[DIAMETERS]
+;Pipe            	Diameter
+ 1               	400
+ 2               	350
+ 3               	300
+ 4               	300
+
+[ROUGHNESS]
+;Pipe            	Roughness
+ 1               	130
+ 2               	130
+ 3               	130
+ 4               	130
+
+[QUALITY]
+;Node            	InitQual
+
+[REACTIONS]
+
+[CONTROLS]
+
+
+
+
+[RULES]
+
+
+
+

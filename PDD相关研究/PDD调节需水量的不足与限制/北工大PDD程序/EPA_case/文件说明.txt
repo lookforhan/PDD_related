@@ -1,0 +1,10 @@
+(1) Test1.inp文件为初始管网水力模型文件；文件中有关水力模型默认参数的设置选项：Project--Defaults--Hydraulics--”Flow Units”设置为”LPS”; ”Headloss Formula”设置为”H-W”；
+此文件中的默认单位：管道长度单位m，管道直径单位mm。此文件必须在EPANET2.0（英文版）中生成。EPA中文版生成的inp文件缺少部分关键词，计算过程中可能存在错误。若使用EPA中文版的inp文件，需先经过EPA英文版打开后另存为新的inp文件。
+
+(2) Intact_Test1.rpt为初始管网水力模型计算结果统计信息；
+
+(3) Modified_Test1.inp文件为PDD修改节点需水量后的管网水力模型文件；
+
+(4) Modified_Test1.rpt为PDD修改节点需水量后的管网水力模型计算结果统计信息；
+
+(5) *.out文件为epanet2.dll函数库自动生成的二进制文件，请忽略。
